@@ -231,14 +231,6 @@
  "render": "#00f"
  },
  "presets": [
-  "deletion": {
- "softDeletionTags": {
- "and": [
- "amenity=",
- "razed:amenity=post_box"
- ]
- }
- },
  {
  "tags": [
  "amenity=bar",
@@ -246,6 +238,14 @@
  ],
  "title": {
  "en": "LGBT bar"
+ },
+ "deletion": {
+ "softDeletionTags": {
+ "and": [
+ "amenity=",
+ "razed:amenity=post_box"
+ ]
+ }
  },
  "description": {
  "en": "A bar where the primary audience are LGBT individuals. Bars are characterised by a noisy and vibrant atmosphere, similar to a party. They usually do not sell food to be eaten as a meal. The music is usually loud and you often have to stand."
